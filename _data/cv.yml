@@ -1,10 +1,10 @@
 cv:
   name: Debasmita Chatterjee
-  label: Robotics Researcher
+  label: Research Assistant
   email: debuchatt212@gmail.com
+  website: https://github.com/debasmita-chatterjee-1212
   location: India
   image: ""
-  summary: Mechanical engineer turned robotics researcher working on perception, mapping and control for autonomous vehicles and UAVs, seeking a PhD in autonomous vehicles and motion planning.
 
   social_networks:
     - network: GitHub
@@ -21,7 +21,6 @@ cv:
         start_date: 2018
         end_date: 2023
         score: "CGPA 8.35/10"
-        courses: "Kinematics of Machines, Fluid Mechanics, Heat Transfer, Systems and Controls, Mechanisms and Robot Kinematics, Knowledge Based Systems in Engineering, Applied Thermo Fluids, Computational Fluid Dynamics, Applied Elasticity, Embedded Sensing Actuation and Interfacing System, Principles of Automotive and Dynamic Controls, Data Analytics, Probability and Stochastic Processes"
 
 
     Experience:

@@ -1,7 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/Debasmita_Chatterjee_CV.pdf # path to your CV PDF file
+cv_pdf:  /cv/ # the CV icon links to the CV page on this site
 email: debuchatt212@gmail.com
 github_username: debasmita-chatterjee-1212
 linkedin_username: debasmita-chatterjee-805366191

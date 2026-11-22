@@ -1,189 +1,142 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Debasmita Chatterjee
+  label: Robotics Researcher
+  email: debuchatt212@gmail.com
+  location: India
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Mechanical engineer turned robotics researcher working on perception, mapping and control for autonomous vehicles and UAVs, seeking a PhD in autonomous vehicles and motion planning.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: debasmita-chatterjee-1212
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: debasmita-chatterjee-805366191
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Indian Institute of Technology, Kharagpur
+        url: https://www.iitkgp.ac.in/
+        area: Mechanical Engineering
+        studyType: Bachelor's and Master's
+        start_date: 2018
+        end_date: 2023
+        score: "CGPA 8.35/10"
+        courses: "Kinematics of Machines, Fluid Mechanics, Heat Transfer, Systems and Controls, Mechanisms and Robot Kinematics, Knowledge Based Systems in Engineering, Applied Thermo Fluids, Computational Fluid Dynamics, Applied Elasticity, Embedded Sensing Actuation and Interfacing System, Principles of Automotive and Dynamic Controls, Data Analytics, Probability and Stochastic Processes"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: ISIR Lab, Sorbonne University
+        position: Research Assistant
+        start_date: 2024
+        end_date: 2026
+        summary: "Perception Robustness of LiDAR-Based Autonomous Mapping on Dynamic Terrain"
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - "Designed and conducted a factorial experimental study of how LiDAR sensor degradation affects dynamic-point removal and mapping performance across varying scene dynamics."
+          - "Reproduced and benchmarked existing dynamic-point removal and LiDAR odometry methods on real-world datasets, simulating dynamic scenes based on real-world dataset characteristics."
+          - "Built a reproducible experimental pipeline and evaluated performance using dynamic and static accuracy, error and computational runtime."
+          - "Analysed results with statistical modelling to study degradation effects, interactions and the influence of scene dynamics on mapping robustness."
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Surgical Simulator for Phantom OMNI Haptics Device
+        summary: "Supervisor: Dr. Cheruvu Siva Kumar, Mechanical Engineering Dept., IIT Kharagpur"
+        start_date: 2022
+        end_date: 2023
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Developed a volume-rendered 3D model of human anatomical structures using Spin Mesh Converter and Unity 3D."
+          - "Integrated haptic devices for force feedback, collision detection and surgical tool interaction."
+          - "Implemented linear elastic and tensor-mass models to emulate tissue deformation, cutting and tearing, updating the surface in real time."
+          - "Designed multi-angle visualization and haptic rendering on the mesh for anatomical exploration in clinical training."
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Vision-Based UAV Pursuit Control
+        summary: "Supervisor: Dr. Martin Barczyk, Mechanical Engineering Department, University of Alberta"
+        start_date: 2022
+        end_date: 2022
+        highlights:
+          - "Built a program to obtain and process the state of the target UAV from a Vicon motion capture setup."
+          - "Developed a detection and tracking control system using MAVROS so one flying UAV autonomously detects and follows another, and simulated the full system on jMAVsim."
+          - "Manually annotated keypoints and labels on tracker-UAV frames using labelme."
+          - "Implemented neural networks to convert 2D to 3D bounding boxes in real time for improved vision, control and target tracking at varying ranges and environments."
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Myocardial Strain Analysis of the Healthy and Diseased Heart
+        summary: "Supervisor: Dr. Arnab Palit, WMG, University of Warwick"
+        start_date: 2022
+        end_date: 2022
+        highlights:
+          - "Estimated myocardial strain over a full cardiac cycle from cardiac MRI data of several patients using Segment."
+          - "Built a MATLAB model using diffeomorphic elastic image registration to compute Green-Lagrange strain tensors across the myocardial wall."
+          - "Developed an automated myocardial segmentation pipeline for more accurate strain analysis."
+
+      - name: Advanced Drone Research Group
+        summary: "Supervisor: Prof. Aditya Bandopadhyay, Department of Mechanical Engineering, IIT Kharagpur"
+        start_date: 2020
+        end_date: 2021
+        highlights:
+          - "Head of the OEDR team and member of the Localization and Mapping team."
+          - "Conducted a literature review on object detection and classification algorithms and UAV flight control systems."
+          - "Implemented the Fast Geometric Avoidance (FGA) algorithm with object classification and visual SLAM."
+          - "Ran flight tests with multiple sensor configurations to evaluate localization performance."
+
+      - name: Autonomous Lane-Keeping System
+        summary: "ATDC, IIT Kharagpur"
+        start_date: 2021
+        end_date: 2021
+        highlights:
+          - "Implemented lane detection and PID feedback control, achieving under 0.15 m RMS lateral error in variable weather conditions."
+          - "Introduced a safety-assist module with 98% accuracy in deviation alerts under environmental perturbations."
+
+      - name: Autonomous Hexacopter Design for Indoor Warehouse Operations
+        summary: "Flipkart GRiD 2.0 Robotics Challenge (semi-finalist)"
+        start_date: 2020
+        end_date: 2020
+        highlights:
+          - "Designed a hexacopter for autonomous indoor warehouse operations including inventory management, logistics and package inspection."
+          - "Performed structural and stability analysis using SolidWorks and Autodesk Inventor Nastran, plus aerodynamic and payload calculations using eCalc."
+          - "Designed navigation modules using SOFT-SLAM for localisation, OctoMap for mapping and Integral Backstepping control for smooth take-off and landing."
+          - "Developed a self-adjusting object-gripping mechanism with OpenCV-based real-time object measurement, Canny edge detection, erosion and dilation."
+
+    Awards:
+      - title: Semi-finalist, Flipkart GRiD 2.0 Robotics Challenge
+        awarder: Flipkart
+        date: 2020
+        summary: "Autonomous hexacopter design for indoor warehouse operations."
+
+      - title: National Talent Search Examination (NTSE) Scholarship
+        awarder: NCERT, India
+        date: 2016
+        summary: "Qualified and received the scholarship."
+
+      - title: Kishore Vaigyanik Protsahan Yojana (KVPY)
+        awarder: Indian Institute of Science, Bangalore
+        date: 2017
+        summary: "Qualified for the second round and appeared for the interview."
+
+      - title: Top 1% nationwide, AISSCE (Class XII)
+        awarder: CBSE
+        date: 2018
+        summary: "Within the top 1% of students nationwide."
+
+      - title: Top 1% nationwide, AISSE (Class X)
+        awarder: CBSE
+        date: 2016
+        summary: "Within the top 1% of students nationwide."
+
+    Skills:
+      - name: Programming Languages
+        icon: fa-solid fa-code
+        keywords: "C, C++, Python"
+
+      - name: Libraries and Tools
+        icon: fa-solid fa-toolbox
+        keywords: "Pandas, NumPy, Scikit-learn, OpenCV, TensorFlow, ROS"
+
+      - name: Simulation and Robotics
+        icon: fa-solid fa-robot
+        keywords: "Gazebo, jMAVsim, MAVROS, Dronekit SITL, Ardupilot"
+
+      - name: Design and Analysis Software
+        icon: fa-solid fa-pen-ruler
+        keywords: "SolidWorks, AutoCAD, MATLAB, Ansys, Unity 3D"
+
+      - name: Medical Imaging
+        icon: fa-solid fa-heart-pulse
+        keywords: "Segment, RadiANT"

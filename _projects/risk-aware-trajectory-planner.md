@@ -8,7 +8,7 @@ category: autonomy
 github: https://github.com/debasmita-chatterjee-1212/risk_aware_planner
 ---
 
-An undergraduate project, done independently: a simulation-based trajectory planner for autonomous highway driving that chooses manoeuvres by estimated collision risk under uncertain traffic. [Code on GitHub](https://github.com/debasmita-chatterjee-1212/risk_aware_planner).
+A simulation-based trajectory planner for autonomous highway driving that chooses manoeuvres by estimated collision risk under uncertain traffic. [Code on GitHub](https://github.com/debasmita-chatterjee-1212/risk_aware_planner).
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">

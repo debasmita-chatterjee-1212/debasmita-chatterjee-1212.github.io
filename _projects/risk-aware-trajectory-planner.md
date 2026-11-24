@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Risk-Aware Trajectory Planner
-description: "undergrad project, IIT Kharagpur, 2020"
-importance: 4
+description: "Undergraduate project, IIT Kharagpur (2020)"
+importance: 3
 category: autonomy
 ---
 

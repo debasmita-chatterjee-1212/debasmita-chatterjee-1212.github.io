@@ -2,7 +2,7 @@
 layout: page
 title: Myocardial Strain Analysis from Cardiac MRI
 description: "University of Warwick (WMG), 2022"
-importance: 2
+importance: 4
 category: biomedical
 ---
 

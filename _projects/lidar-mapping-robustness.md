@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Perception Robustness of LiDAR-Based Autonomous Mapping
-description: "Research Assistant, ISIR Lab, Sorbonne Université (2024-2026)"
+description: "Sorbonne Université (2024-2026)"
 importance: 7
 category: autonomy
 ---

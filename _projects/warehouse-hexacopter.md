@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Autonomous Indoor Hexacopter for Warehouse Operations
-description: "Flipkart GRiD 2.0 Robotics Challenge (2020), semi-finalist team project at IIT Kharagpur"
+description: "Flipkart GRiD 2.0 Robotics Challenge (2020)"
 img: assets/img/hexacopter/hexacopter-cad.png
 importance: 2
 category: autonomy

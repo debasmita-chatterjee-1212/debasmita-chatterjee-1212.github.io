@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vision-Based UAV Pursuit Control
-description: "Detection and tracking of one UAV by another, University of Alberta (2022)"
+description: "University of Alberta (2022)"
 importance: 6
 category: autonomy
 ---

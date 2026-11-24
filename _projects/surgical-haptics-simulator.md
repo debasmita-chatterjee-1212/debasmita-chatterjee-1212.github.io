@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Surgical Simulator with Haptic Feedback
-description: "Phantom OMNI haptic device, IIT Kharagpur"
+description: "IIT Kharagpur (2022-2023)"
 importance: 5
 category: biomedical
 ---

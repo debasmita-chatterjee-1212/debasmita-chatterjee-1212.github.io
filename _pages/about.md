@@ -6,7 +6,7 @@ subtitle: Robotics Researcher | Motion Planning & Autonomous Vehicles | IIT Khar
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: bugs-bunny-png.png
   image_circular: false
   more_info: >
     <p>Mechanical Engineering, IIT Kharagpur</p>

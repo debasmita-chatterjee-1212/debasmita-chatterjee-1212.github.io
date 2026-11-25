@@ -9,7 +9,6 @@ profile:
   image: bugs-bunny-png.png
   image_circular: false
   more_info: >
-    <p>Mechanical Engineering, IIT Kharagpur</p>
     <p>Perpetually buried in Robots</p>
 
 selected_papers: false

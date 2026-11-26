@@ -2,7 +2,6 @@ cv:
   name: Debasmita Chatterjee
   label: Research Assistant
   email: debuchatt212@gmail.com
-  website: https://github.com/debasmita-chatterjee-1212
   location: India
   image: ""
 
@@ -20,11 +19,10 @@ cv:
         studyType: Bachelor's and Master's
         start_date: 2018
         end_date: 2023
-        score: "CGPA 8.35/10"
 
 
     Experience:
-      - company: ISIR Lab, Sorbonne University
+      - company: Sorbonne University
         position: Research Assistant
         start_date: 2024
         end_date: 2026
@@ -41,29 +39,30 @@ cv:
         start_date: 2022
         end_date: 2023
         highlights:
-          - "Developed a volume-rendered 3D model of human anatomical structures using Spin Mesh Converter and Unity 3D."
-          - "Integrated haptic devices for force feedback, collision detection and surgical tool interaction."
-          - "Implemented linear elastic and tensor-mass models to emulate tissue deformation, cutting and tearing, updating the surface in real time."
-          - "Designed multi-angle visualization and haptic rendering on the mesh for anatomical exploration in clinical training."
-
+          - "Developed a physics-based surgical simulation framework incorporating linear-elastic tensor-mass modelling, volumetric anatomical meshes and explicit numerical integration of deformable tissues"
+          - "Implemented rigid anatomical contact, proxy-based soft-tissue palpation and fracture-energy-based surface incision models for surgical instrument interaction"
+          - "Integrated haptic devices for force-feedback, collision detection, and surgical tool interaction"
+          - "Conducted analytical benchmark experiments and mesh refinement studies, achieving displacement errors as low as 1.23% in uniaxial compression and identifying numerical limitations in bending and contact modelling"
+      
       - name: Vision-Based UAV Pursuit Control
         summary: "Supervisor: Dr. Martin Barczyk, Mechanical Engineering Department, University of Alberta"
         start_date: 2022
         end_date: 2022
         highlights:
-          - "Built a program to obtain and process the state of the target UAV from a Vicon motion capture setup."
-          - "Developed a detection and tracking control system using MAVROS so one flying UAV autonomously detects and follows another, and simulated the full system on jMAVsim."
-          - "Manually annotated keypoints and labels on tracker-UAV frames using labelme."
-          - "Implemented neural networks to convert 2D to 3D bounding boxes in real time for improved vision, control and target tracking at varying ranges and environments."
+          - "Developed modular PID position and yaw control in C++ and ROS for Parrot UAVs, with quaternion-to-Euler conversion and coordinate transformations of Vicon motion capture pose data, interactive gain tuning and CSV logging."
+          - "Developed a detection and tracking control system using MAVROS package for autonomously detecting the target UAV in motion using another flying UAV on which the system is onboard ; simulated the whole system on jMAVsim successfully"
+          - "Mounted and calibrated cameras on the tracker UAV, and manually annotated keypoints and labels on its frames of the target UAV using LabelMe"
+          - "Implemented neural networks to convert 2D to 3D bounding boxes in real time for improved vision, control and target tracking of the target UAV at varying ranges and environments"
 
-      - name: Myocardial Strain Analysis of the Healthy and Diseased Heart
+      - name: Cardiac Cine-MRI Analysis and Classification
         summary: "Supervisor: Dr. Arnab Palit, WMG, University of Warwick"
         start_date: 2022
         end_date: 2022
         highlights:
-          - "Estimated myocardial strain over a full cardiac cycle from cardiac MRI data of several patients using Segment."
-          - "Built a MATLAB model using diffeomorphic elastic image registration to compute Green-Lagrange strain tensors across the myocardial wall."
-          - "Developed an automated myocardial segmentation pipeline for more accurate strain analysis."
+          - "Built a MATLAB pipeline for 2D cardiac cine-MRI, covering DICOM import, preprocessing and left ventricular (LV) segmentation tracked across the cardiac cycle."
+          - "Segmented the LV from manually initialised contours propagated across frames with cyclic tracking and checked frame by frame."
+          - "Extracted 20 LV features per patient, including end-diastolic and end-systolic area, fractional area change, temporal area-curve features and myocardial strain values during a full cardiac cycle"
+          - "Trained classifiers for healthy-versus-MI classification with patient-level validation resulting in 89.4% held-out test accuracy followed by integration into one automated workflow that generates patient-level reports."
 
       - name: Advanced Drone Research Group
         summary: "Supervisor: Prof. Aditya Bandopadhyay, Department of Mechanical Engineering, IIT Kharagpur"
@@ -75,13 +74,14 @@ cv:
           - "Implemented the Fast Geometric Avoidance (FGA) algorithm with object classification and visual SLAM."
           - "Ran flight tests with multiple sensor configurations to evaluate localization performance."
 
-      - name: Autonomous Lane-Keeping System
-        summary: "ATDC, IIT Kharagpur"
+      - name: Risk-Aware Highway Trajectory Planner
+        summary: "Undergraduate project, IIT Kharagpur"
         start_date: 2021
         end_date: 2021
         highlights:
-          - "Implemented lane detection and PID feedback control, achieving under 0.15 m RMS lateral error in variable weather conditions."
-          - "Introduced a safety-assist module with 98% accuracy in deviation alerts under environmental perturbations."
+          - "Built a Python simulation of autonomous highway driving with a three-lane environment, six surrounding vehicles and four candidate manoeuvres"
+          - "Estimated collision risk by Monte Carlo sampling of stochastic traffic trajectories and selected manoeuvres by a weighted cost of risk, proximity and comfort."
+          - "Across 200 simulated scenarios (80,000 rollouts), reduced mean estimated collision probability by 40.4% against lane keeping in challenging traffic (74.83% to 44.59%)."
 
       - name: Autonomous Hexacopter Design for Indoor Warehouse Operations
         summary: "Flipkart GRiD 2.0 Robotics Challenge (semi-finalist)"
@@ -90,8 +90,8 @@ cv:
         highlights:
           - "Designed a hexacopter for autonomous indoor warehouse operations including inventory management, logistics and package inspection."
           - "Performed structural and stability analysis using SolidWorks and Autodesk Inventor Nastran, plus aerodynamic and payload calculations using eCalc."
-          - "Designed navigation modules using SOFT-SLAM for localisation, OctoMap for mapping and Integral Backstepping control for smooth take-off and landing."
-          - "Developed a self-adjusting object-gripping mechanism with OpenCV-based real-time object measurement, Canny edge detection, erosion and dilation."
+          - "Designed autonomous navigation modules: SOFT-SLAM stereo visual SLAM with Extended Kalman Filter fusion of IMU and altimeter, occupancy-grid obstacle avoidance, gate navigation and PID trajectory tracking."
+          - "Developed a vision-based self-adjusting gripper with OpenCV real-time object measurement using Canny edge detection, erosion and dilation driving two linear actuators."
 
     Awards:
       - title: Semi-finalist, Flipkart GRiD 2.0 Robotics Challenge
@@ -124,13 +124,9 @@ cv:
         icon: fa-solid fa-code
         keywords: "C, C++, Python"
 
-      - name: Libraries and Tools
-        icon: fa-solid fa-toolbox
-        keywords: "Pandas, NumPy, Scikit-learn, OpenCV, TensorFlow, ROS"
-
       - name: Simulation and Robotics
         icon: fa-solid fa-robot
-        keywords: "Gazebo, jMAVsim, MAVROS, Dronekit SITL, Ardupilot"
+        keywords: "Gazebo, jMAVsim, MAVROS, Dronekit SITL, Ardupilot, ROS"
 
       - name: Design and Analysis Software
         icon: fa-solid fa-pen-ruler
